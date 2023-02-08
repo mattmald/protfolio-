@@ -1,5 +1,5 @@
-html{
-    background-color: rgb(255, 255, 255);
+html {
+    background-color: rgb(118, 117, 117);
 }
 
 header {
@@ -10,7 +10,7 @@ header {
     padding-bottom: 60px;
     display: flex;
     flex-wrap: wrap;
-    justify-content:end;
+    justify-content: end;
 }
 
 header h1 {
@@ -40,44 +40,28 @@ nav button {
     border-bottom: 2px solid teal;
 }
 
-h2 {
-    font-size: 35px;
-    display:;
+.sideBlocks {
+    list-style-type: none;
+    font-size: 50px;
+    justify-content: flex-end;
     display: flex;
-    flex-direction: column;
 }
 
-.textonimage{
- background-color:aquamarine;
- font-size: 17px;
+.pargh {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 6%;
 }
 
- .happy {
-   display: flex;
-   flex-wrap: wrap;
-   align-items: center;
-   padding: 30px; 
- }
-
- .unhappy {
-    flex: 33.33%;
-    padding: 40px;
- }
-
- .aboutme {
-     display:
- }
- 
- .imageonetext {
-    background-image: url(/assets/images/andrea-boschini-5Ipk8IgNpPg-unsplash.jpg);
-    width:300px;
-    height: 300px;
-    text-align:center;
-    padding:20px;
+.right {
+    right: 0;
+    background-color: red;
 }
-img {
-    width: 40%;
-    height: 20%;
-    object-fit: contain;
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
 }
 
